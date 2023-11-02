@@ -81,7 +81,7 @@ export default function Home({ setProgress, Categorys }) {
           <div className="container mx-auto">
             <div className="flex flex-wrap justify-center">
               {paginatedPosts.map((item) => {
-                return <Link key={item.id} href={`/product/${item.id}`}><div className="p-4 shadow-lg mx-5 my-2 md:w-[20vw] w-full">
+                return <Link key={item.id} href={`#`}><div className="p-4 shadow-lg mx-5 my-2 md:w-[20vw] w-full">
                   <div className="block relative rounded overflow-hidden">
                     <img alt="ecommerce" className="-z-10 relative mx-auto h-[30vh] md:h-[36vh] block" src={item.image} />
                   </div>
